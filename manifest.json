@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Bloqueadora Temporal",
+  "version": "1.0.0",
+  "description": "Administra el acceso temporal a dominios con esperas y cupos diarios.",
+  "minimum_chrome_version": "102",
+  "permissions": ["declarativeNetRequest", "webNavigation", "storage", "alarms", "tabs", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.mjs", "type": "module" },
+  "web_accessible_resources": [
+    {
+      "resources": ["gate.html", "blocked.html", "blocked.css"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}

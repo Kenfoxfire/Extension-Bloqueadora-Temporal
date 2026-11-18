@@ -1,0 +1,26 @@
+# Dependencias
+node_modules/
+
+# Salidas de compilación y pruebas
+dist/
+build/
+coverage/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.temp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Paquetes generados
+*.zip

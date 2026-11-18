@@ -1,0 +1,16 @@
+{
+  "defaults": {
+    "maxSessions": 8,
+    "waitSeconds": 20,
+    "appMinutes": 5
+  },
+  "groups": [
+    {
+      "id": "redes-sociales",
+      "domains": [
+        "instagram.com",
+        "facebook.com"
+      ]
+    }
+  ]
+}

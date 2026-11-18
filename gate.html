@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Espera antes de acceder</title>
+  <link rel="stylesheet" href="blocked.css">
+  <script src="gate.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="topline"><span>ACCESO TEMPORAL</span><span aria-hidden="true">⌛</span></div>
+    <section class="content">
+      <h1 id="heading">Espera un momento.</h1>
+      <p id="message" role="status">Tienes algo mejor que hacer? en lugar de gastar el tiempo aqui?</p>
+      <p id="countdown" aria-live="polite"></p>
+      <button id="access" type="button" hidden>Acceder</button>
+    </section>
+    <div class="bottomline"><p>El tiempo de acceso es limitado.</p></div>
+  </main>
+</body>
+</html>
